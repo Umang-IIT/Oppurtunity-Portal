@@ -1,0 +1,8 @@
+.navitemStyle{
+    padding:0.5vw 0vw 0.5vw 0vw;
+    text-decoration: none;
+    color:black;
+}
+.navitemStyle:hover{
+    background-color: rgb(209, 204, 204);
+}
