@@ -1,0 +1,11 @@
+.add-btn{
+    padding: 0%;
+    color: #31D2F2;
+}
+.container1{
+    margin-left: 22vw;
+    width: 40vw ;
+    border: 1px rgb(206, 206, 206) solid;
+    padding: 1.5vw;
+    border-radius: 5px;
+}
