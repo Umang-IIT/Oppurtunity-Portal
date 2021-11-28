@@ -1,0 +1,36 @@
+.skills{
+    border:  1px solid gray;
+    width: 60%;
+    height: auto;
+    min-height: 240px;
+    margin: 3% auto;
+}
+.form-grp{
+    width: 80%;
+    height: 32px;
+    /* ;margin: 0 auto */
+}
+.form{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+    padding: 0 2%;
+}
+.boxes{
+    display: flex;
+    /* flex-direction: row; */
+    padding: 0 9%;
+}
+.box{
+    background-color: transparent;
+    border-radius: 0.5rem;
+    border: 1px solid gray;
+    height: auto;
+    width: auto;
+    color:rgb(1, 154, 255);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 1% 1.5%;
+    transform: scale(1.1,1);
+    font-weight: bold;
+    font-size: 1.2rem;
+}

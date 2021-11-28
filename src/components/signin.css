@@ -1,0 +1,57 @@
+.cont{
+    margin: 0 auto;
+    justify-content: center;
+    width: 90%;
+    height: 90vh;
+    /* border: 1px solid rgba(0, 0, 0, 0.137); */
+}
+
+.container2SI{
+    display: flex;
+    
+    /* border: 1px solid rgba(211, 71, 71, 0.76); */
+    width: 70%;
+    height: 90%;
+    margin: 2% auto;
+}
+.form-control-optSI{
+    background: transparent;
+    border: none;
+}
+.imageSI{
+    width: 50%;
+    height: 100%;
+    background-image:linear-gradient(to right ,rgba(255, 255, 255, 0.945) ,rgba(253, 253, 253, 0.788),rgba(253, 253, 253, 0)), url("../images/intern.jpeg");
+    background-size: 100% 100%;
+    border-radius: 1rem;
+}
+.formSU{
+    width: 50%;
+    height: 100%;
+   padding: 10% 3%;
+}
+.tbox{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    background-color: antiquewhite;
+    width: 95%;
+    height: 3.5rem;
+    margin: 0 0 3% 0;
+    border-radius: 2rem;
+}
+.form-control {
+    
+    fill: none;
+    background: transparent;
+    border: none;
+    font-size: 18px;
+    
+}
+.form-control:focus {
+    fill: none;
+    background: transparent;
+    border: none;
+    font-size: 18px;
+    
+}
