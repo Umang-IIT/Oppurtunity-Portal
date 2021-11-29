@@ -200,9 +200,6 @@ const Education = () => {
                         </Accordion.Collapse>
                     </Card>
                 </Accordion>
-                <div className="ms-auto mt-2 margin text-end me-3"> 
-                 <Button variant="outlined"  className= " btn btn-primary ">Next</Button>
-                </div>
                    
 
             </div>

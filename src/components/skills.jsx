@@ -16,7 +16,7 @@ const Skills = () => {
 
     }
     let tskill;
-    if (skills.length != 0) {
+    if (skills.length !== 0) {
         tskill = (skills.map(item => {
             return (
 

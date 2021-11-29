@@ -9,11 +9,13 @@ import Personal from "./components/Personal.jsx";
 import Education from "./components/Education.jsx";
 import Footer from "./components/Footer.jsx";
 import Home from "./components/Home.jsx";
+import Form from "./components/Form.jsx";
 
 function App() {
   return (
     <Router>
       <Navbar />
+      <Form />
       <Routes>
         <Route path="/signup" element={<Signup />} />{" "}
         <Route path="/" element={<Home />} />{" "}
