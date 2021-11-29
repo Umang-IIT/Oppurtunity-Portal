@@ -35,7 +35,7 @@ const SignupForm = () => {
                                     <i className="bi bi-lock-fill" style={{ fontSize: '2rem', color: 'gray' }}></i>
                                 </div>&nbsp;&nbsp;
                                 <div className="col-8">
-                                    <input type="text" class="form-control" placeholder="Password" name="password" id="password" />
+                                    <input type="password" class="form-control" placeholder="Password" name="password" id="password" />
                                 </div>
                             </div>
                             <div className="row tbox">
@@ -43,7 +43,7 @@ const SignupForm = () => {
                                     <i className="bi bi-file-lock2" style={{ fontSize: '2rem', color: 'gray' }}></i>
                                 </div>&nbsp;&nbsp;
                                 <div className="col-8">
-                                    <input type="text" class="form-control" placeholder="Confirm Password" name="cpassword" id="cpassword" />
+                                    <input type="password" class="form-control" placeholder="Confirm Password" name="cpassword" id="cpassword" />
                                 </div>
                             </div>
                             <div className="row">

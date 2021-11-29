@@ -33,7 +33,7 @@ const SigninForm = () => {
                                     <i className="bi bi-lock-fill" style={{ fontSize: '2rem', color: 'gray' }}></i>
                                 </div>&nbsp;&nbsp;
                                 <div className="col-8">
-                                    <input type="text" class="form-control" placeholder="Password" name="password" id="password" />
+                                    <input type="password" class="form-control" placeholder="Password" name="password" id="password" />
                                 </div>
                             </div>
                             {/* <div className="row tbox">
@@ -46,7 +46,7 @@ const SigninForm = () => {
                             </div> */}
                             <div className="row">
                                 <div className="col-11">
-                                    <input type="submit" className="btn btn-lg btn-outline-secondary" style={{ width: '103%' }} value="Sign Up" />
+                                    <input type="submit" className="btn btn-lg btn-outline-secondary" style={{ width: '103%' }} value="Sign In" />
                                 </div>
 
                             </div>

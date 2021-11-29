@@ -10,33 +10,20 @@ import Education from './components/Education.jsx';
 import Footer from './components/Footer.jsx';
 
 function App() {
-    return ( <
-        Router >
-        <
-        Navbar / >
-        <
-        Routes >
-        <
-        Route path = "/signup"
-        element = { < Signup / > }
-        /> <
-        Route exact path = "/signin"
-        element = { < Signin / > }
-        /> <
-        Route exact path = "/skills"
-        element = { < Skills / > }
-        /> <
-        Route exact path = "/exp"
-        element = { < Experience / > }
-        /> <
-        Route exact path = "/edu"
-        element = { < Education / > }
-        /> <
-        Route exact path = "/per"
-        element = { < Personal / > }
-        /> <
-        /Routes> <
-        /Router >
+    return (
+        <Router >
+            <Navbar />
+            <Routes >
+                <Route path="/signup" element={< Signup />} />
+                < Route exact path="/signin" element={< Signin />} />
+                < Route exact path="/skills" element={< Skills />} />
+                <Route exact path="/exp" element={< Experience />} />
+                <Route exact path="/edu" element={< Education />} />
+                <Route exact path="/per" element={< Personal />} />
+
+            </Routes>
+            {/* <Footer /> */}
+        </Router >
     );
 }
 
