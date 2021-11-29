@@ -1,6 +1,6 @@
 import React from "react";
-import { Col, Row } from "react-bootstrap";
-import { FormControl, MenuItem, Select, InputLabel } from "@mui/material";
+import {Col, Row} from "react-bootstrap";
+import {FormControl, MenuItem, Select, InputLabel} from "@mui/material";
 import './edu.css';
 import Button from "@restart/ui/esm/Button";
 
@@ -8,8 +8,8 @@ const Education = () => {
     return (
         <div className="container">
             <h2 style={{
-                textAlign: "center"
-            }}>Preferences</h2>
+                    textAlign: "center"
+                }}>Preferences</h2>
             <div className="container1">
                 {/* <Row>
 
@@ -25,7 +25,8 @@ const Education = () => {
                     <Col>
                         <br></br>
                     </Col>
-                </Row> */}
+                </Row> */
+                }
                 <Row>
                     <h6>Which of the following work type(s) are you looking for?</h6>
                     <Col xs={12} sm={6}>
@@ -162,10 +163,6 @@ const Education = () => {
 
                     </Col>
                 </Row>
-                <div className="ms-auto mt-2 margin text-end me-3">
-                    <Button variant="outlined" className=" btn btn-primary ">Next</Button>
-                </div>
-
             </div>
 
         </div>
