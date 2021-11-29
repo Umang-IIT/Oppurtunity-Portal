@@ -23,23 +23,23 @@ function CustomToggle({ children, eventKey }) {
     );
 }
 
-function EmailValid ({email}){
+function EmailValid({ email }) {
     const [emailError, setEmailError] = useState('');
     const validateEmail = (e) => {
-      var email = e.target.value
-    
-      if (validator.isEmail(email)) {
-        setEmailError('Valid Email :)')
-      } else {
-        setEmailError('Enter valid Email!')
-      }
-}
+        var email = e.target.value
+
+        if (validator.isEmail(email)) {
+            setEmailError('Valid Email :)')
+        } else {
+            setEmailError('Enter valid Email!')
+        }
+    }
 }
 
 const Personal = () => {
     return (
-        <div className="container">
-            <h1 style={{ textAlign: "center" }} >Personal Details</h1>
+        <div className="container ">
+            <h2 style={{ textAlign: "center" }} >Personal Details</h2>
             <div className="container1">
                 <Accordion className="widthAcc">
                     <Card>
@@ -64,7 +64,7 @@ const Personal = () => {
                                             </Select>
                                         </FormControl>
                                     </Col>
-                                    
+
                                     <Col xs={12} sm={5}>
                                         <TextField id="outlined-basic" label="First Name" variant="outlined" name="firstname" className="my-2 w-100" /> </Col>
                                     <Col xs={12} sm={4}>
@@ -73,10 +73,10 @@ const Personal = () => {
 
                                 <Row className="justify-content-center">
                                     <Col xs={12} sm={6}>
-                                        <TextField id="outlined-basic" type = "date" label="Date Of Birth" variant="outlined" name="dob" className="my-2 w-100" 
-                                        InputLabelProps={
-                                            {shrink:true,}
-                                        }
+                                        <TextField id="outlined-basic" type="date" label="Date Of Birth" variant="outlined" name="dob" className="my-2 w-100"
+                                            InputLabelProps={
+                                                { shrink: true, }
+                                            }
                                         /> </Col>
                                 </Row>
 
@@ -90,16 +90,16 @@ const Personal = () => {
                         <Accordion.Collapse eventKey="1">
                             <Card.Body>
                                 <Row>
-                                <Col xs={12} sm={12}>
-                                        <TextField id="outlined-basic" label="Email" variant="outlined" name="email" className="my-2 w-100" 
+                                    <Col xs={12} sm={12}>
+                                        <TextField id="outlined-basic" label="Email" variant="outlined" name="email" className="my-2 w-100"
                                         /> </Col>
                                 </Row>
                                 <Row>
                                     <Col xs={0} sm={3}>
-                                        <TextField id="outlined-basic" label="Code" variant="outlined" name="mcode" defaultValue="+91" className="my-2 w-100" 
-                                        InputLabelProps={
-                                            {shrink:true,}
-                                        }
+                                        <TextField id="outlined-basic" label="Code" variant="outlined" name="mcode" defaultValue="+91" className="my-2 w-100"
+                                            InputLabelProps={
+                                                { shrink: true, }
+                                            }
                                         /> </Col>
                                     <Col xs={12} sm={9}>
                                         <TextField id="outlined-basic" label="Mobile" variant="outlined" name="mobile" className="my-2 w-100" />    </Col>
@@ -137,12 +137,12 @@ const Personal = () => {
                                         </FormControl>
                                     </Col>
                                     <Col xs={12} sm={6}>
-                                        <TextField id="outlined-basic" label="Passport No." variant="outlined" name="passno" className="my-2 w-100" /> 
+                                        <TextField id="outlined-basic" label="Passport No." variant="outlined" name="passno" className="my-2 w-100" />
                                     </Col>
                                 </Row>
                                 <Row>
                                     <Col xs={12} sm={12}>
-                                        <TextField id="outlined-basic" label="Course" variant="outlined" name="course" className="my-2 w-100" /> 
+                                        <TextField id="outlined-basic" label="Course" variant="outlined" name="course" className="my-2 w-100" />
                                     </Col>
                                 </Row>
                             </Card.Body>
@@ -156,34 +156,34 @@ const Personal = () => {
                             <Card.Body>
                                 <Row>
                                     <Col xs={12} sm={12}>
-                                        <TextField id="outlined-basic" label="City" variant="outlined" name="city" className="my-1 w-100" /> 
+                                        <TextField id="outlined-basic" label="City" variant="outlined" name="city" className="my-1 w-100" />
                                     </Col>
                                     <br />
                                     <span style={{
-                                      fontWeight: 'light',
-                                      color: 'grey',
+                                        fontWeight: 'light',
+                                        color: 'grey',
                                     }}> Please enter the city where you currently live</span>
                                 </Row>
                                 <br />
                                 <Row>
                                     <Col xs={12} sm={12}>
-                                        <TextField id="outlined-basic" label="2nd City" variant="outlined" name="seccity" className="my-1 w-100" /> 
+                                        <TextField id="outlined-basic" label="2nd City" variant="outlined" name="seccity" className="my-1 w-100" />
                                     </Col>
                                     <br />
                                     <span style={{
-                                      fontWeight: 'light',
-                                      color: 'grey',
+                                        fontWeight: 'light',
+                                        color: 'grey',
                                     }}>If you study in one city (say Kharagpur) but are from a different city (say Chennai), fill this to be consider for oppourtunities in both </span>
                                 </Row>
-                                
+
                             </Card.Body>
                         </Accordion.Collapse>
                     </Card>
                 </Accordion>
-                   
+
 
             </div>
-            
+
         </div>
 
     );

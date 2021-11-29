@@ -1,6 +1,5 @@
 import React from "react";
 import "./signup.css";
-import intern from "../images/intern.jpeg";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import { Link } from 'react-router-dom';
 

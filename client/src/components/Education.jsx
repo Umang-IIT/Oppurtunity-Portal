@@ -26,7 +26,7 @@ function CustomToggle({ children, eventKey }) {
 const Education = () => {
     return (
         <div className="container">
-            <h1 style={{ textAlign: "center" }} >Education</h1>
+            <h2 style={{ textAlign: "center" }} >Education</h2>
             <div className="container1">
                 <Accordion className="widthAcc">
                     <Card>
@@ -200,10 +200,10 @@ const Education = () => {
                         </Accordion.Collapse>
                     </Card>
                 </Accordion>
-                   
+
 
             </div>
-            
+
         </div>
 
     );

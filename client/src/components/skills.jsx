@@ -26,15 +26,15 @@ const Skills = () => {
     }
     return (
         <div className="justify-content-center">
-            <h2 className=" text-center mt-5">Skills</h2>
+            <h2 className=" text-center mt-1">Skills</h2>
             <p className=" text-center text-secondary">Include atleast 3-5 of your top skill to help your application stand out</p>
             <div className=" skills">
 
-                <form onSubmit={(e) => AddSkill(e)}>
+                <form >
                     <div className="form">
                         {/* <label for="addskill">Add Skills</label> */}
                         <input type="text" id="addskill" className="form-grp mt-3" value={newSkill} onChange={(e) => setNewSkill(e.target.value)} name="addskill" placeholder="eg: Reactjs.." required />&nbsp;
-                        <input type="submit" value="Add skill" className="btn btn-sm btn-primary mt-3 " />
+                        <input type="button" onClick={(e) => { AddSkill(e) }} value="Add skill" className="btn btn-sm btn-primary mt-3 " />
                     </div>
                 </form>
                 <div className="row boxes mt-3">

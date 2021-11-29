@@ -15,15 +15,15 @@ function App() {
   return (
     <Router>
       <Navbar />
-      <Form />
+      {/* <Form /> */}
       <Routes>
         <Route path="/signup" element={<Signup />} />{" "}
-        <Route path="/" element={<Home />} />{" "}
+        <Route path="/form" element={<Form />} />{" "}
         <Route exact path="/signin" element={<Signin />} />{" "}
-        <Route exact path="/skills" element={<Skills />} />{" "}
+        {/* <Route exact path="/skills" element={<Skills />} />{" "}
         <Route exact path="/exp" element={<Experience />} />{" "}
         <Route exact path="/edu" element={<Education />} />{" "}
-        <Route exact path="/per" element={<Personal />} />{" "}
+        <Route exact path="/per" element={<Personal />} />{" "} */}
       </Routes>{" "}
     </Router>
   );

@@ -23,7 +23,7 @@ function Experience() {
   return (
     <div>
       <div className="container">
-        <h1 style={{ textAlign: "center" }}>Experience</h1>
+        <h2 style={{ textAlign: "center" }}>Experience</h2>
         <div className="container1">
           <Accordion className="widthAcc">
             <Card>
