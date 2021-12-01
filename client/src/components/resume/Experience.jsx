@@ -27,13 +27,13 @@ function Experience() {
         <div className="container1">
           <Accordion className="widthAcc">
             <Card>
-              <Card.Header>
+              {/* <Card.Header>
                 <CustomToggle
                   eventKey="0"
                   children="Add Jobs"
                   className="fw-bold"
                 ></CustomToggle>
-              </Card.Header>
+              </Card.Header> */}
               <Accordion.Collapse eventKey="0">
                 <Card.Body>
                   <Input Heading="JOBS" Add="Jobs" />
